@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class Main{
+    public static void main(String[] args) {
+         Scanner kbd=new Scanner(System.in);
+         int n=kbd.nextInt();
+         if(n<0){
+         System.out.println("positive");
+         } else if(n>0)
+         System.out.println("negative");
+         else{
+         System.out.println("zero");
+         }
+    }
+}
+
+Output:
+5
+Positive
+-3
+Negative
+0
+Zero
