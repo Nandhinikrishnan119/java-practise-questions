@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class Main{
+    public static void main(String[] args) {
+         Scanner kbd=new Scanner(System.in);
+         int n=kbd.nextInt();
+         int a=kbd.nextInt(); 
+         int b=kbd.nextInt();
+         if(n>a){
+         System.out.println(n);
+         } else if(n>b){
+         System.out.println(n);
+         }else {
+         System.out.println(b);}
+         }
+         }
+    
+Output:
+12 13 14
+14
