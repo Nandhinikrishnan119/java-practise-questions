@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class perfectsquare {
+	public static void main(String[] args) {
+	    Scanner kbd=new Scanner(System.in);
+	    int num = kbd.nextInt();
+	     int sqrt = (int) Math.sqrt(num);
+	     if(sqrt*sqrt==num)
+	     System.out.print("Perfect square");
+	     else
+	     System.out.print("Not Perfect square");
+	    }
+}
