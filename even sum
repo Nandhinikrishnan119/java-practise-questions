@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class sumeven {
+    public static void main(String[] args) {
+        Scanner kbd=new Scanner(System.in);
+        int a=kbd.nextInt();
+        int b=kbd.nextInt();
+        for(int i=a;i<=b;i++){
+            if(i%2==0){
+            int sum= sum + i;
+            System.out.println("sum"+ sum);
+            }
+        }
+    }}
+    
+
