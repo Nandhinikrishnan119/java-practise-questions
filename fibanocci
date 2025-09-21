@@ -1,0 +1,15 @@
+ import java.util.Scanner;
+public class fibanocci{
+	public static void main(String[] args) {
+	    Scanner kbd=new Scanner(System.in);
+	    int n= kbd.nextInt();
+	    int fir=0, sec=1;
+        for (int i = 1; i <= n; i++) {
+            System.out.print(fir + " ");
+            int temp = fir + sec;
+            fir = sec;
+            sec = temp;
+        }
+	}
+}
+
