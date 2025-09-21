@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class sumoddeven {
+    public static void main(String[] args) {
+        Scanner kbd=new Scanner(System.in);
+        int a=kbd.nextInt();
+        int b=kbd.nextInt();
+        int sum=0;
+        int sum1=0;
+        for(int i=a;i<=b;i++){
+            if(i%2==0){
+             sum= sum + i;
+            System.out.println(" "+ sum);
+            }}
+            for(int i=a;i<=b;i++){
+            if(i%2!=0){
+                sum1=sum1+i;
+                System.out.println(""+sum1);
+            
+        }
+    }}}
+    
+
+
